@@ -6,11 +6,11 @@ let _arrayObject = [{ principal: 2500, time: 1.8 },
 
 
 function check(pricipal, time) {
-    if (pricipal >= 2500 && (time > 1 && time < 3)) {
+    if (principal >= 2500 && (time > 1 && time < 3)) {
         return 3;
-    } else if (pricipal >= 2500 && (time >= 3)) {
+    } else if (principal >= 2500 && (time >= 3)) {
         return 4;
-    } else if (pricipal < 2500 || (time <= 1)) {
+    } else if (principal < 2500 || (time <= 1)) {
         return 2;
     } else {
         return 1;
